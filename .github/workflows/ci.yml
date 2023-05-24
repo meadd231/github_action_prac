@@ -28,6 +28,7 @@ jobs:
     - run: npm test
   
   build:
+    needs: test
     name: Build
     runs-on: ubuntu-20.04 6
     steps:
