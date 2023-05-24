@@ -13,4 +13,4 @@ RUN npm install
 COPY . .
 
 # 어플리케이션 실행을 위한 명령어
-CMD [ "npm", "start" ]
+CMD [ "node", "app" ]
