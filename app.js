@@ -9,6 +9,6 @@ const router = require('./routes');
 
 app.use('/api', router);
 
-server.listen(port, () => {
+app.listen(port, () => {
   console.log(`running ${port}`);
 });
