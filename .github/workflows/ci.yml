@@ -15,7 +15,7 @@ env:
 jobs:
   test:
 
-    runs-on: ubuntu-20.04 6
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -30,7 +30,7 @@ jobs:
   build:
     needs: test
     name: Build
-    runs-on: ubuntu-20.04 6
+    runs-on: ubuntu-latest
     steps:
       - name: Check out source code
         uses: actions/checkout@v2
